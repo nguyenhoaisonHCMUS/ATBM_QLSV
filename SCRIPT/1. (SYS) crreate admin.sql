@@ -51,18 +51,9 @@ GRANT EXECUTE ON DBMS_CRYPTO to ad;
 --GRANT EXECUTE ON DBMS_RLS TO ad;
 
 
-grant execute on sa_components to ad with grant option; 
-grant execute on sa_user_admin to ad with grant option; 
-grant execute on sa_label_admin to ad with grant option;
-grant execute on sa_policy_admin to ad with grant option; 
-grant execute on sa_audit_admin to ad with grant option; 
-grant execute on sa_session to ad with grant option; 
-grant execute on char_to_label to ad with grant option; 
-grant create table to ad;
-grant execute on TO_LBAC_DATA_LABEL to ad with grant option;
-grant SELECT_CATALOG_ROLE to ad;
 
-grant execute procedure to ad with admin option;
+
+--Tao cac proc cho admin
 
 
 
